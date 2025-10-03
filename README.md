@@ -7,6 +7,7 @@
 - Vehicle type can be restricted to 3 string values (enum-like) in input dto
 - No API authentication
 - No API versioning
+- HTTP as this is for local usage only
 - No logging to AppInsights/no Serilog
 - No libraries like FluentValidation & FluentAssertions for this take home task
 - No healthchecks
@@ -16,6 +17,7 @@
 - it is required to have MSSQL server setup with empty DB and provide connection string in CarParkManagement.API/appsettings.json (for user with "db_owner" permission)
 - app can be run from Visual Studio
 - on startup app will create tables and seed the data
+- there will be swagger UI available at http://localhost:5000/swagger/index.html
 
 ## ToDos
 - I left some TODOs in the code with possible enhancements & things to clarify as I often tend to do when starting to work on new functionality/project
