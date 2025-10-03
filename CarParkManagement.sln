@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkManagement.Persistence", "CarParkManagement.Persistence\CarParkManagement.Persistence.csproj", "{9D0EB54E-13D1-438E-8512-8FCC7FBA9A9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkManagement.Core.Tests", "Tests\CarParkManagement.Core.Tests\CarParkManagement.Core.Tests.csproj", "{069FC70F-F101-B3AA-58A8-4F54709F07FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkManagement.API", "CarParkManagement.API\CarParkManagement.API.csproj", "{41ED24B9-9622-8B50-30B3-ABEB8A368B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkManagement.Core", "CarParkManagement.Core\CarParkManagement.Core.csproj", "{4744421F-2CF7-B516-EBFC-5422441E8B58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D0EB54E-13D1-438E-8512-8FCC7FBA9A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0EB54E-13D1-438E-8512-8FCC7FBA9A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0EB54E-13D1-438E-8512-8FCC7FBA9A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0EB54E-13D1-438E-8512-8FCC7FBA9A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069FC70F-F101-B3AA-58A8-4F54709F07FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069FC70F-F101-B3AA-58A8-4F54709F07FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069FC70F-F101-B3AA-58A8-4F54709F07FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069FC70F-F101-B3AA-58A8-4F54709F07FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41ED24B9-9622-8B50-30B3-ABEB8A368B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41ED24B9-9622-8B50-30B3-ABEB8A368B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41ED24B9-9622-8B50-30B3-ABEB8A368B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41ED24B9-9622-8B50-30B3-ABEB8A368B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4744421F-2CF7-B516-EBFC-5422441E8B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4744421F-2CF7-B516-EBFC-5422441E8B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4744421F-2CF7-B516-EBFC-5422441E8B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4744421F-2CF7-B516-EBFC-5422441E8B58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{069FC70F-F101-B3AA-58A8-4F54709F07FE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820D91B5-4181-4905-A1A1-4B6320B94CB2}
+	EndGlobalSection
+EndGlobal
